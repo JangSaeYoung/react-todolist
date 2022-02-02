@@ -1,0 +1,15 @@
+.BtnStyle{
+    width: 310px;
+    height: 50px;
+    margin: 10px;
+    padding: 0px;
+    background-color: rgb(241, 168, 168);
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

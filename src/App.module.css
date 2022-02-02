@@ -1,0 +1,78 @@
+.container{
+    margin: 100px;
+    padding: 100px;
+    width: 1000px;
+    height: 1500px;
+    /* background-color: rgb(253, 216, 207); */
+}
+
+.headerBox{
+    text-align: center;
+}
+
+.themText{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.inputBoxLayout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    border: 1px solid rgb(190, 185, 185);
+    border-radius: 10px;
+    width: 1000px;
+    height: 200px;
+}
+
+.inputBox{
+    width: 900px;
+    height: 50px;
+    border: 1px solid rgb(190, 185, 185);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 0px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  
+}
+
+.inputBtn{
+    width: 900px;
+    height: 50px;
+    padding: 0px;
+    border: 1px solid rgb(241, 168, 168);
+    border-radius: 10px;
+    background-color: rgb(241, 168, 168);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.ListBtnBox{
+    text-align: center;
+}
+
+.ListBtnBoxLayout{
+    display: flex;
+    flex-direction: column;
+   /* align-content: space-around; */
+    align-items:center;
+    align-content: space-between;
+    width: 1000px;
+    height: 200px;
+}
+
+.ListBtn{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
